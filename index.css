@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+body{
+  font-family: Source Sans Pro;
+  font-style: normal;
+}
+
+nav.navbar{
+font-weight: 300;
+line-height: normal;
+font-size: 48px;
+
+color: #000000;
+}
+
+div.abc{
+font-weight: bold;
+line-height: normal;
+font-size: 64px;
+margin-top: 1em;
+color: #000000;
+}
+
+#Contact-button{
+  /* Rectangle 2 */
+border: 2px solid #000000;
+box-sizing: border-box;
+border-radius: 10px;
+width: 80%;
+text-align: center;
+}
+#About-us-button{
+  /* Rectangle 2 */
+background: #000000;
+border-radius: 10px;
+color: #FFFFFF;
+width: 80%;
+text-align: center;
+}

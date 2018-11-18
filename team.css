@@ -2,10 +2,13 @@
   font-size: 50px;
   font-weight: bolder;
 }
-.content{
+.container{
   font-family: 'Source Sans Pro', sans-serif;
 }
 .leads{
   font-size: 40px;
   font-weight: bold;
+}
+.leads .col{
+  text-align: center;
 }

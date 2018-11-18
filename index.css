@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+
+body{
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+  .bold {
+    color: black;
+    font-style: bold;
+    font-size: 64px;
+    line-height: 80px;
+    align-content: center;
+  }

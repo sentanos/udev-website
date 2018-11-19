@@ -1,13 +1,63 @@
-@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+
+
+
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro");
 
 body{
-  font-family: 'Source Sans Pro', sans-serif;
+ font-family: Source Sans Pro;
+ font-style: normal;
 }
 
-  .bold {
+.bold {
     color: black;
     font-style: bold;
     font-size: 64px;
     line-height: 80px;
     align-content: center;
-  }
+}
+
+nav.navbar{
+background: #ffffff;
+color: #555555
+}
+
+nav ul  a{
+  color: #555555!important;
+}
+
+nav .brand-logo{
+  margin-left: 40px;
+  color: #555555!important;
+}
+
+nav ul li.Home a{
+  font-style: semibold;
+  color: #1C4273!important;
+
+}
+
+div.abc{
+font-weight: bold;
+line-height: normal;
+font-size: 64px;
+
+margin-top: 1em;
+color: #000000;
+}
+
+#Contact-button{
+  /* Rectangle 2 */
+border: 2px solid #000000;
+box-sizing: border-box;
+border-radius: 10px;
+width: 80%;
+text-align: center;
+}
+#About-us-button{
+  /* Rectangle 2 */
+background: #000000;
+border-radius: 10px;
+color: #FFFFFF;
+width: 80%;
+text-align: center;
+}

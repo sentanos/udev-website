@@ -1,21 +1,36 @@
-@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro");
+
 body{
-  font-family: Source Sans Pro;
-  font-style: normal;
+ font-family: Source Sans Pro;
+ font-style: normal;
 }
 
 nav.navbar{
-font-weight: 300;
-line-height: normal;
-font-size: 48px;
+background: #ffffff;
+color: #555555
+}
 
-color: #000000;
+nav ul  a{
+  color: #555555!important;
+}
+
+nav .brand-logo{
+  margin-left: 40px;
+  color: #555555!important;
+}
+
+nav ul li.Home a{
+  font-style: semibold;
+  color: #1C4273!important;
+
 }
 
 div.abc{
 font-weight: bold;
 line-height: normal;
 font-size: 64px;
+
 margin-top: 1em;
 color: #000000;
 }
@@ -36,3 +51,4 @@ color: #FFFFFF;
 width: 80%;
 text-align: center;
 }
+

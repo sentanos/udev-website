@@ -13,8 +13,28 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-</head>
 
+</head>
+<style>
+.card {
+  width: 90%;
+  -moz-transition: transform 0.5s; /* Firefox 4 */
+  -webkit-transition: transform 0.5s; /* Safari and Chrome */
+  -o-transition: transform 0.5s; /* Opera */
+  -ms-transition: transform 0.5s; /* Explorer 10 */
+  transition: transform 0.5s;
+  transition: all 0.5s cubic-bezier(.25, .8, .25, 1);
+}
+
+.card:hover {
+  -moz-transform: translate(0px, -10px); /* Firefox 4 */
+  -webkit-transform: translate(0px, -10px); /* Safari and Chrome */
+  -o-transform: translate(0px, -10px); /* Opera */
+  -ms-transform: translate(0px, -10px); /* Explorer 10 */
+  transform: translate(0px, -10px);
+  box-shadow: 0 20px 25px rgba(0, 0, 0, 0.25);
+}
+</style>
 
 <body>
   <nav>
@@ -33,11 +53,12 @@
 
 
 
+
   <div class="container">
 
-    <h2>
-      <b>&nbsp;Projects</b>
-    </h2>
+    <div class="title">
+      Projects
+    </div>
     <br>
     <br>
 

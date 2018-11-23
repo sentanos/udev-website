@@ -13,13 +13,23 @@ nav {
   box-shadow: none !important;
 }
 
-.card{
+.card {
   width: 90%;
-  transition: all 0.5s cubic-bezier(.25,.8,.25,1);
+  -moz-transition: transform 0.5s; /* Firefox 4 */
+  -webkit-transition: transform 0.5s; /* Safari and Chrome */
+  -o-transition: transform 0.5s; /* Opera */
+  -ms-transition: transform 0.5s; /* Explorer 10 */
+  transition: transform 0.5s;
+  transition: all 0.5s cubic-bezier(.25, .8, .25, 1);
 }
 
-.card:hover{
-  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+.card:hover {
+  -moz-transform: translate(0px, -10px); /* Firefox 4 */
+  -webkit-transform: translate(0px, -10px); /* Safari and Chrome */
+  -o-transform: translate(0px, -10px); /* Opera */
+  -ms-transform: translate(0px, -10px); /* Explorer 10 */
+  transform: translate(0px, -10px);
+  box-shadow: 0 20px 25px rgba(0, 0, 0, 0.25);
 }
 
 nav ul li a:before {
@@ -83,33 +93,98 @@ div .title {
   color: #000000;
 }
 
-.icon{
+.icon {
   margin-right: 20px;
   transition: color .5s;
-  color:black;
+  color: black;
 }
-.icon:hover{
-  color:#787878;
+
+.icon:hover {
+  color: #787878;
 }
+
+.rounded-image {
+  border-radius: 15px;
+  display: block;
+  margin-block-start: 3em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+.profile {
+  margin-top: 40px;
+  margin-right: 42px;
+}
+.name {
+  font-size: 20px;
+}
+.sub {
+  font-size: 18px;
+  color: #686868;
+}
+.profile-section{
+  margin-top: 50px;
+}
+
+.overlay-black {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s;
+  background-color: black;
+}
+.profile-img{
+  position: relative;
+  width: 200px;
+  height: 200px;
+}
+
+.profile-img:hover .overlay-black {
+  opacity: .5;
+}
+.profile-img:hover .profile-icon {
+  opacity: 1;
+}
+
+.profile-icon {
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 50px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  opacity: 0;
+  transition: .5s;
+}
+
+
 #white-button {
+  margin-bottom: 20px;
   margin-right: 20px;
-  font-weight:normal;
+  font-weight: normal;
   font-size: 24px;
   display: inline-block;
   border: 2px solid #000000;
   border-radius: 99999px;
   text-align: center;
 }
+
 #white-button:hover {
   background: #000000;
   color: #FFFFFF;
 }
 
 #black-button {
+  margin-bottom: 20px;
   margin-right: 20px;
   font-size: 24px;
-  font-weight:normal;
-
+  font-weight: normal;
   display: inline-block;
   border: 2px solid #000000;
   background: #000000;
@@ -117,6 +192,7 @@ div .title {
   color: #FFFFFF;
   text-align: center;
 }
+
 #black-button:hover {
   color: black;
   background: #FFFFFF;

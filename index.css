@@ -112,6 +112,9 @@ div .title {
   margin-inline-end: 0px;
 }
 .profile {
+
+  align-content: center;
+  justify-content: center;
   margin-top: 40px;
   margin-right: 42px;
 }
@@ -123,6 +126,9 @@ div .title {
   color: #686868;
 }
 .profile-section{
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  display: flex;
   margin-top: 50px;
 }
 
@@ -140,6 +146,8 @@ div .title {
 }
 .profile-img{
   position: relative;
+  align-self: center;
+  justify-content: center;
   width: 200px;
   height: 200px;
 }

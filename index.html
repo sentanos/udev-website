@@ -9,17 +9,28 @@
   <!-- Load local css -->
   <link rel="stylesheet" href="index.css" />
   <!-- Load materialize from external cdn -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
 </head>
 
 <body>
 
+  <script>
+    $(document).ready(function() {
+      $('.sidenav').sidenav();
+    });
+  </script>
+
   <nav>
     <div class="nav-wrapper white no-shadows">
-      <a href="#" class="brand-logo">uDev</a>
-      <ul id="nav-mobile" class="right">
+      <a href="index.html" class="brand-logo">uDev</a>
+      <a href="#" data-target="mobile-nav" class="sidenav-trigger"><i class="material-icons black-text">menu</i></a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
         <li><a href="index.html">Home</a></li>
         <li><a href="about.html">About Us</a></li>
         <li><a href="projects.html">Projects</a></li>
@@ -28,6 +39,15 @@
       </ul>
     </div>
   </nav>
+  <ul class="sidenav" id="mobile-nav">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About Us</a></li>
+    <li><a href="projects.html">Projects</a></li>
+    <li><a href="team.html">Members</a></li>
+    <li><a href="index.html#contact">Contact</a></li>
+  </ul>
+
+
   <div class="container">
     <!-- the upper part -->
     <div class="title row">
@@ -49,7 +69,8 @@
       </div>
       <div class="col s12 m12 l7">
         <div id="contact" class="title">Have an idea?</br>Want to join the team?</div>
-        <p>We're always open to new project ideas. If you have an idea for an app or website, submit a form by clicking below.</br></br>We're also looking to grow our team. If you're passionate about app or website development, design, marketing,
+        <p class="flow-text">We're always open to new project ideas. If you have an idea for an app or website, submit a form by clicking below.</br></br>We're also looking to grow our team. If you're passionate about app or website development,
+          design, marketing,
           communications, or just learning new things, fill out an application. We're currently recruiting for all positions for Autumn 2018.</p>
         <div class="row">
           <a id="white-button" class="btn-large btn-flat">SUBMIT AN IDEA</a>

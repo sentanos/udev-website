@@ -148,12 +148,18 @@ div .title {
   transition: .5s;
   background-color: black;
 }
+
+.profile-img img{
+  width: 200px;
+  height: 200px;
+}
+
 .profile-img{
+  width: 200px;
+  height: 200px;
   position: relative;
   align-self: center;
   justify-content: center;
-  width: 200px;
-  height: 200px;
 }
 
 .profile-img:hover .overlay-black {

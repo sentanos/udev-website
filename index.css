@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro");
 
+@media screen and (max-width: 100px){
+    nav ul li a {font-size: 18px;}
+}
+
 body {
   font-family: Source Sans Pro;
   font-style: normal;
@@ -13,7 +17,7 @@ nav {
   box-shadow: none !important;
 }
 
-.card {
+.project {
   width: 90%;
   -moz-transition: transform 0.5s; /* Firefox 4 */
   -webkit-transition: transform 0.5s; /* Safari and Chrome */
@@ -23,7 +27,7 @@ nav {
   transition: all 0.5s cubic-bezier(.25, .8, .25, 1);
 }
 
-.card:hover {
+.project:hover {
   -moz-transform: translate(0px, -10px); /* Firefox 4 */
   -webkit-transform: translate(0px, -10px); /* Safari and Chrome */
   -o-transform: translate(0px, -10px); /* Opera */
@@ -31,6 +35,11 @@ nav {
   transform: translate(0px, -10px);
   box-shadow: 0 20px 25px rgba(0, 0, 0, 0.25);
 }
+
+.about-card {
+ height: 400px;
+}
+
 
 .card-content p{
   font-size: 14px;
@@ -107,8 +116,7 @@ div .title {
   color: #787878;
 }
 
-.rounded-image {
-  border-radius: 15px;
+.about-image {
   display: block;
   margin-block-start: 3em;
   margin-block-end: 1em;
@@ -116,7 +124,6 @@ div .title {
   margin-inline-end: 0px;
 }
 .profile {
-
   align-content: center;
   justify-content: center;
   margin-top: 40px;

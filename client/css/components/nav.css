@@ -1,0 +1,9 @@
+nav {
+  box-shadow: none !important;
+  margin-bottom: 3vw;
+}
+
+nav .brand-logo {
+  margin-left: 100px;
+  color: #555555 !important;
+}

@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro");
+
+@media screen and (max-width: 100px){
+    nav ul li a {font-size: 18px;}
+}
+
+div .title {
+  font-weight: bold;
+  line-height: normal;
+  font-size: 64px;
+  color: #000000;
+}
+
+nav ul li a:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #1C4273;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+nav ul li a:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
+nav ul li a {
+  font-size: 24px;
+  position: relative;
+  color: #1C4273;
+  text-decoration: none;
+  transition: color .5s;
+}
+
+nav ul li a:hover {
+  color: #1C4273;
+  background-color: white !important;
+  color: #1C4273 !important;
+}
+
+.bold {
+  color: black;
+  font-style: bold;
+  font-size: 64px;
+  line-height: 80px;
+  align-content: center;
+}
+
+.icon {
+  margin-right: 20px;
+  transition: color .5s;
+  color: black;
+}
+
+.icon:hover {
+  color: #787878;
+}
+
+nav ul a {
+  margin-right: 75px;
+  color: #555555 !important;
+}
+
+body {
+  font-family: Source Sans Pro;
+  font-style: normal;
+}
+
+p {
+  font-size: 32px;
+}
+
+.white-button {
+  margin-bottom: 20px;
+  margin-right: 20px;
+  font-weight: normal;
+  font-size: 24px;
+  display: inline-block;
+  border: 2px solid #000000;
+  border-radius: 99999px;
+  text-align: center;
+}
+
+.white-button:hover {
+  background: #000000;
+  color: #FFFFFF;
+}
+
+.black-button {
+  margin-bottom: 20px;
+  margin-right: 20px;
+  font-size: 24px;
+  font-weight: normal;
+  display: inline-block;
+  border: 2px solid #000000;
+  background: #000000;
+  border-radius: 99999px;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.black-button:hover {
+  color: black;
+  background: #FFFFFF;
+}

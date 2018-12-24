@@ -1,0 +1,69 @@
+[
+  {
+    "name": "Connor Carlson",
+    "team": "Lead",
+    "title": "Project Manager",
+    "link": "https://www.linkedin.com/in/carlsonconnor/",
+    "image": "ConnorCarlson.jpg"
+  },
+  {
+    "name": "Connie Wang",
+    "team": "Lead",
+    "title": "Lead Developer",
+    "link": "https://www.linkedin.com/in/connie-w/",
+    "image": "ConnieWang.png"
+  },
+  {
+    "name": "Joshua Lanese",
+    "team": "Lead",
+    "title": "Lead Backend Web Developer",
+    "image": "JoshuaLanese.jpg"
+  },
+  {
+    "name": "Sungchan Park",
+    "team": "Web",
+    "link": "https://www.linkedin.com/in/sungchan-park-2000",
+    "image": "SungchanPark.jpg"
+  },{
+    "name": "Yiji Deng",
+    "team": "Web",
+    "link": "https://www.linkedin.com/in/yijie-deng-28760a175",
+    "image": "YijiDeng.jpg"
+  },{
+    "name": "Wei Qiang",
+    "team": "Web",
+    "image": "WeiQiang.jpg"
+  },{
+    "name": "Jasmine Soh",
+    "team": "Web",
+    "link": "http://linkedin.com/in/jasmine-soh-b03468175",
+    "image": "JasmineSoh.jpg"
+  },{
+    "name": "Trinity Cho",
+    "team": "UIUX",
+    "image": "TrinityCho.jpg"
+  },{
+    "name": "Zhining Wang",
+    "team": "UIUX",
+    "image": "ZhiningWang.JPG"
+  },{
+    "name": "Martin Zhang",
+    "team": "UIUX",
+    "link": "https://www.linkedin.com/in/martin-zhang-288018164/",
+    "image": "MartinZhang.jpeg"
+  },{
+    "name": "Kaya Bramble",
+    "team": "UIUX",
+    "image": "KayaBramble.JPG"
+  },{
+    "name": "Christopher Kang",
+    "team": "UIUX",
+    "link": "https://christopherkang.me/",
+    "image": "ChristopherKang.jpg"
+  },{
+    "name": "Sailesh Sivikumar",
+    "team": "UIUX",
+    "link": "https://www.linkedin.com/in/sailesh-sivakumar-453061141/",
+    "image": "SaileshSivakumar.jpg"
+  }
+]

@@ -1,0 +1,6 @@
+.profile-section {
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  display: flex;
+  margin-top: 50px;
+}

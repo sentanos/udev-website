@@ -1,0 +1,20 @@
+.about-card {
+ height: 400px;
+}
+
+.about-image {
+  display: block;
+  margin-block-start: 3em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.mail-icon {
+  width: 48px;
+  height: 48px;
+}
+
+.card-content p {
+  font-size: 14px;
+}

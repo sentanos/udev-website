@@ -78,7 +78,7 @@ export default () => {
         </div>
         <div className='row'>
           <span className='mail-icon'>
-            <a href='mailto:udev.dubstech@gmail.com'><img src='/static/icon/envelope.svg' className='mail-icon' /></a>
+            <a href='mailto:udev.dubstech@gmail.com'><img src='/static/ico/envelope.svg' className='mail-icon' /></a>
             {/* <a href='https://www.facebook.com/' className='fab fa-facebook icon' /> */}
           </span>
         </div>

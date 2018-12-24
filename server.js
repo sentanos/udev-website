@@ -10,7 +10,7 @@ app.prepare().then(() => {
   const server = express();
 
   server.use((req, res, next) => {
-    res.header('s-maxage', '1800');
+    res.header('Cache-Control', 'public, s-maxage=1800');
     next();
   });
 

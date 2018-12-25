@@ -10,7 +10,6 @@ export default class MyDocument extends Document {
           <meta name='author' content='uDev' />
           <meta name='description' content='uDev Homepage' />
           {/* <link rel='shortcut icon' href='/favicon.ico' /> */}
-          <link rel='stylesheet' href='/_next/static/style.css' />
         </Head>
         <body>
           <Main />

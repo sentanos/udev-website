@@ -1,0 +1,9 @@
+.uw-logo {
+  width: 150px;
+  align-self: center;
+}
+
+.footer-right {
+  margin-left: auto;
+  display: flex;
+}

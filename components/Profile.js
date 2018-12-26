@@ -4,7 +4,7 @@ import '../client/css/components/profile.css';
 
 export default class Profile extends React.Component {
   render () {
-    return (<div className='profile'>
+    return (<div className='profile' key={this.props.name}>
       <div className='profile-img center'>
         <img src={'/static/img/team/' + this.props.image} alt='' className='circle responsive-img' />
         {this.props.link && <div><div className='overlay-black circle responsive-img' /><a href={this.props.link} target='_blank' className='profile-icon'>

@@ -1,4 +1,5 @@
 import React from 'react';
+import Head from 'next/head';
 import Profile from '../components/Profile.js';
 import team from '../static/team.json';
 
@@ -42,6 +43,9 @@ class Team extends React.Component {
     }
 
     return (<div>
+      <Head>
+        <title>Team - uDev</title>
+      </Head>
       <div className='title'>
         Our Team
       </div>

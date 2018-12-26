@@ -1,9 +1,13 @@
 import React from 'react';
+import Head from 'next/head';
 
 import '../client/css/index.css';
 
 export default () => {
   return (<div>
+    <Head>
+      <title>uDev</title>
+    </Head>
     <div className='title row'>
       <div className='col s12 m12 l6'>
         Coders, Designers, Developers, Leaders, Students.

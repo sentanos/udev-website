@@ -7,7 +7,7 @@ export default class Profile extends React.Component {
     return (<div className='profile' key={this.props.name}>
       <div className='profile-img center'>
         <img src={'/static/img/team/' + this.props.image} alt='' className='circle responsive-img' />
-        {this.props.link && <div><div className='overlay-black circle responsive-img' /><a href={this.props.link} target='_blank' className='profile-icon'>
+        {this.props.link && <div><div className='overlay-black circle responsive-img' /><a href={this.props.link} target='_blank' rel='noopener' className='profile-icon'>
           <img className='profile-icon' src='/static/ico/linkedin.svg' />
         </a></div>}
       </div>

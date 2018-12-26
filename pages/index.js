@@ -9,7 +9,7 @@ export default () => {
         Coders, Designers, Developers, Leaders, Students.
         <div className='row'>
           <a href='#contact' className='btn-large btn-flat white-button'>CONTACT</a>
-          <a href='https://github.com/udev-group' className='btn-large btn-flat black-button'><i className='fab fa-github' /> GITHUB</a>
+          <a href='https://github.com/udev-group' target='_blank' rel='noopener' className='btn-large btn-flat black-button'><i className='fab fa-github' /> GITHUB</a>
         </div>
       </div>
       <div className='col s12 m12 l6'>
@@ -73,8 +73,8 @@ export default () => {
           design, marketing,
           communications, or just learning new things, fill out an application. We're currently recruiting for all positions for Autumn 2018.</p>
         <div className='row'>
-          <a href='https://goo.gl/forms/Z1XkTClNYyjJHk8b2' className='btn-large btn-flat white-button'>SUBMIT AN IDEA</a>
-          <a href='https://goo.gl/forms/oSmAxeqvhKRn9hYi2' className='btn-large btn-flat black-button'>JOIN THE TEAM</a>
+          <a href='https://goo.gl/forms/Z1XkTClNYyjJHk8b2' target='_blank' rel='noopener' className='btn-large btn-flat white-button'>SUBMIT AN IDEA</a>
+          <a href='https://goo.gl/forms/oSmAxeqvhKRn9hYi2' target='_blank' rel='noopener' className='btn-large btn-flat black-button'>JOIN THE TEAM</a>
         </div>
         <div className='row'>
           <span className='mail-icon'>

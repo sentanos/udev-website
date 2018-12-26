@@ -7,3 +7,8 @@ nav .brand-logo {
   margin-left: 100px;
   color: #555555 !important;
 }
+
+.menu-icon {
+  height: 64px;
+  width: 24px;
+}

@@ -10,7 +10,10 @@ app.prepare().then(() => {
   const server = express();
 
   server.use((req, res, next) => {
-    res.header('Cache-Control', 'public, s-maxage=1800');
+    // Prevent 304 from being cached
+    if (req.fresh) {
+      res.header('Cache-Control', 'public, s-maxage=1800');
+    }
     next();
   });
 

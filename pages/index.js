@@ -6,7 +6,7 @@ import '../client/css/index.css';
 export default () => {
   return (<div>
     <Head>
-      <title>uDev</title>
+      <title>:) uDev</title>
     </Head>
     <div className='title row'>
       <div className='col s12 m12 l6'>

@@ -16,7 +16,9 @@ export default class Nav extends React.Component {
         <nav>
           <div className='nav-wrapper white no-shadows'>
             <Link href='/'><a className='brand-logo'>uDev</a></Link>
-            <a href='#' data-target='mobile-nav' className='sidenav-trigger'><img className='menu-icon' src='/static/ico/menu.svg' /></a>
+            <a href='#' data-target='mobile-nav' className='sidenav-trigger'>
+              <img className='menu-icon' src='/static/ico/menu.svg' />
+            </a>
             <ul className='right hide-on-med-and-down'>
               <li><Link href='/'><a>Home</a></Link></li>
               {/* <li><Link href='projects.html'><a>Projects</a></Link></li> */}

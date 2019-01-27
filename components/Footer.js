@@ -5,11 +5,6 @@ import '../client/css/components/footer.css';
 export default class Footer extends React.Component {
   render () {
     return (<footer className='page-footer white'>
-      <div className='container'>
-        // <div className='row'>
-        //   uDev
-        // </div>
-      </div>
       <div className='footer-copyright black white-text'>
         <div className='container'>
           <div className='valign-wrapper'>

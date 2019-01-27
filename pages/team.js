@@ -28,7 +28,12 @@ class Team extends React.Component {
     });
     for (let i = 0; i < members.length; i++) {
       const member = members[i];
-      const profile = <Profile name={member.name} image={member.image} title={member.title} link={member.link} />;
+      const profile = <Profile
+        name={member.name}
+        image={member.image}
+        title={member.title}
+        link={member.link}
+      />;
       switch (member.team) {
         case 'Lead':
           leads.push(profile);

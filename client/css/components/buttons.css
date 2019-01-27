@@ -1,0 +1,33 @@
+.white-button {
+  margin-bottom: 20px;
+  margin-right: 20px;
+  font-weight: normal;
+  font-size: 24px;
+  display: inline-block;
+  border: 2px solid #000000;
+  border-radius: 99999px;
+  text-align: center;
+}
+
+.white-button:hover {
+  background: #000000;
+  color: #FFFFFF;
+}
+
+.black-button {
+  margin-bottom: 20px;
+  margin-right: 20px;
+  font-size: 24px;
+  font-weight: normal;
+  display: inline-block;
+  border: 2px solid #000000;
+  background: #000000;
+  border-radius: 99999px;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.black-button:hover {
+  color: black;
+  background: #FFFFFF;
+}
